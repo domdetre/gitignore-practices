@@ -2,13 +2,8 @@
 # Has nothing to do with the project
 .idea
 .vscode
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw*
-*.sublime-project
-*.sublime-workspace
+.sublime-project
+.sublime-workspace
 .DS_Store
 .atom
 .project

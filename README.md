@@ -2,6 +2,28 @@
 
 I've noticed developers often build a huge list of folders and files in the .gitignore file. A list that consist of system files like `.DS_Store` and other project unrelated folders like `.vscode`.  This repo tries to demonstrate a practice that can be very useful and helps creating a gitignore that is more related to your project.
 
+# The problem
+
+Editor directories and files.  
+Has nothing to do with the project and this list is just small example.  
+```
+.idea
+.vscode
+.sublime-project
+.sublime-workspace
+.DS_Store
+.atom
+.project
+.history
+```
+
+Temp directories of tools.  
+Related to the project, but meant to be excluded, hence they use dotted folders as standard.  
+```
+.vagrant
+.serverless
+```
+
 # The gitignore
 
 So instead of trying to build a possible list of dotted folders and files that is created by editors and tools, we just ignore every dotted folder by default

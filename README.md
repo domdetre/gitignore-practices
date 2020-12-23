@@ -4,7 +4,7 @@ I've noticed developers often build a huge list of folders and files in the .git
 
 # The problem
 
-Editor directories and files.  
+Editor and system directories and files.  
 Has nothing to do with the project and this list is just small example.  
 ```
 .idea
